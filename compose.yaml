@@ -1,0 +1,11 @@
+services:
+  check:
+    image: wg-gesucht-mcp:test
+    build:
+      context: .
+      target: test
+    init: true
+    shm_size: 1gb
+    security_opt:
+      - no-new-privileges:true
+      - seccomp=./docker/chromium-seccomp.json
