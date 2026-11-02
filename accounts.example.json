@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "id": "personal",
+      "label": "Personal",
+      "emailEnv": "WG_PERSONAL_EMAIL",
+      "passwordEnv": "WG_PERSONAL_PASSWORD"
+    },
+    {
+      "id": "other",
+      "label": "Other account",
+      "emailEnv": "WG_OTHER_EMAIL",
+      "passwordEnv": "WG_OTHER_PASSWORD"
+    }
+  ]
+}
